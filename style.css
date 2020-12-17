@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: rgb(165,0,255);
+	background: linear-gradient(6deg, rgba(165,0,255,1) 13%, rgba(29,255,1,1) 85%);
+	min-height: 100%;
+}
+
+@font-face {
+	font-family: 'Press_Start_2P'; 
+	src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf); 
+}
+
+
+
+::-webkit-scrollbar {
+	  width: 35px;
+	  height: 35px;
+	}
+	::-webkit-scrollbar-button {
+	  width: 100px;
+	  height: 100px;
+	}
+	::-webkit-scrollbar-thumb {
+	  background: transparent;
+	  border: 100px dotted #940088;
+	  border-radius: 100px;
+	}
+	::-webkit-scrollbar-thumb:hover {
+	  background: transparent;
+	}
+	::-webkit-scrollbar-thumb:active {
+	  background: transparent;
+	}
+	::-webkit-scrollbar-track {
+	  background: transparent;
+	  border: 81px dotted #c900cc;
+	  border-radius: 22px;
+	}
+	::-webkit-scrollbar-track:hover {
+	  background: transparent;
+	}
+	::-webkit-scrollbar-track:active {
+	  background: transparent;
+	}
+	::-webkit-scrollbar-corner {
+	  background: transparent;
+	}
+
+.box {
+	font-family: 'Press_Start_2P'; 
+	height: 20rem;
+	color: #fff;
+	overflow:hidden;
+	
+}
+
+.box:hover {
+	overflow-y: auto;
+}
+
+
+
+.box_small {
+		border: 2px solid #ffffff; 
+
+}
+
+.box_small p {
+	font-family: 'Press_Start_2P'; 
+	text-align: center;
+}
